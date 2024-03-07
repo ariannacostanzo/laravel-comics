@@ -24,11 +24,11 @@
         <div class="footer-social-container">
             <h4>FOLLOW US</h4>
             <nav>
-                <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="">
-                <img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt="">
-                <img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt="">
-                <img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt="">
-                <img src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt="">
+                <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="facebook">
+                <img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt="twitter">
+                <img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt="youtube">
+                <img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt="pinterest">
+                <img src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt="periscope">
             </nav>
         </div>
     </div>
