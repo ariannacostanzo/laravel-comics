@@ -6,47 +6,47 @@
 ],
 [
 'text' => 'Comics',
-'url' => '#',
+'url' => 'home',
 'current' => true,
 ],
 [
 'text' => 'Movies',
-'url' => '#',
+'url' => 'movies',
 'current' => false,
 ],
 [
 'text' => 'TV',
-'url' => '#',
+'url' => 'tv',
 'current' => false,
 ],
 [
 'text' => 'Games',
-'url' => '#',
+'url' => 'games',
 'current' => false,
 ],
 [
 'text' => 'Collectibles',
-'url' => '#',
+'url' => 'collectibles',
 'current' => false,
 ],
 [
 'text' => 'Videos',
-'url' => '#',
+'url' => 'videos',
 'current' => false,
 ],
 [
 'text' => 'Fans',
-'url' => '#',
+'url' => 'fans',
 'current' => false,
 ],
 [
 'text' => 'News',
-'url' => '#',
+'url' => 'news',
 'current' => false,
 ],
 [
 'text' => 'Shop',
-'url' => '#',
+'url' => 'shop',
 'current' => false,
 ],
 ];

@@ -3,7 +3,9 @@
 @section('main-content')
 
 <main>
-    characters
+    <div class="container">
+        characters
+    </div>
 </main>
 
 @endsection

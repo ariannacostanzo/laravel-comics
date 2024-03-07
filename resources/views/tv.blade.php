@@ -3,8 +3,8 @@
 @section('main-content')
 
 <main>
-   <div class="container">
-        movies
+    <div class="container">
+        tv
     </div>
 </main>
 
