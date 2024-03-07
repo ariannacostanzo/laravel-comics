@@ -1,5 +1,17 @@
 // @import '~bootstrap/scss/bootstrap';
+// mixin
 
-body {
-    background-color: red;
-}
+// @mixin flexbox($align, $justify) {
+//     display: flex;
+//     align-items: $align;
+//     justify-content: $justify;
+    
+// };
+// Variables
+
+// $blue: #0282f9;
+
+@use 'reset';
+@use 'generics';
+@use 'utils';
+@use 'header';
