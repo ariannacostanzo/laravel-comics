@@ -1,7 +1,7 @@
 <?php  return [
 [
 'text' => 'Characters',
-'url' => '#',
+'url' => 'characters',
 'current' => false,
 ],
 [

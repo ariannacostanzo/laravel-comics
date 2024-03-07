@@ -3,7 +3,7 @@
 @section('main-content')
 
 <main>
-    main
+    characters
 </main>
 
 @endsection
