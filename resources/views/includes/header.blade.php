@@ -10,7 +10,7 @@
                 @endforeach --}}
                 <li><a href="{{route('characters')}}" class="{{ request()->routeIs('characters') ? 'active' : '' }}">characters</a></li>
                 <li><a href="{{route('home')}}" class="{{ request()->routeIs('home') ? 'active' : '' }}">comics</a></li>
-                <li><a href="">movies</a></li>
+                <li><a href="{{route('movies')}}" class="{{ request()->routeIs('movies') ? 'active' : '' }}">movies</a></li>
                 <li><a href="">tv</a></li>
                 <li><a href="">games</a></li>
                 <li><a href="">collectibles</a></li>
