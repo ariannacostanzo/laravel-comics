@@ -13,6 +13,14 @@
     <div id="comic-info">
         <div class="comic-description">
             <h2>{{$comic['title']}}</h2>
+            <div class="comic-price-container">
+                <div class="comic-price">
+                    <p>U.S.Price: <span>{{$comic['price']}}</span></p>
+                    <p>AVAILABLE </p>
+                </div>
+                <div class="comic-availability">Check Availability &#11167;</div>
+            </div>
+            <p class="comic-info-description">{{$comic['description']}}</p>
         </div>
         <figure class="ad-figure">
             Advertisement
