@@ -4,7 +4,8 @@
 
 @section('main-content')
 <div class="blue-line"></div>
-<div class="container" id="comic-details">
+{{-- descrizione comic --}}
+<div class="container smaller" id="comic-details">
     <figure class="comic-figure">
         <span class="comic-img-details type">{{$comic['type']}}</span>
         <img src="{{$comic['thumb']}}" alt="{{$comic['series']}}" class="comic-img">
@@ -28,8 +29,9 @@
         </figure>
     </div>
 </div>
+{{-- proprietà del fumetto --}}
 <div id="comic-specialties">
-    <div class="container" id="comic-talent-specs">
+    <div class="container smaller" id="comic-talent-specs">
        <div class="comic-talent">
         <h3>Talent</h3>
         <div class="specialties-container">
@@ -65,6 +67,27 @@
             </div>
         </div>
         
+    </div>
+</div>
+{{-- merch --}}
+<div id="merchandise-container" >
+    <div class="container  smaller merch-container">
+        <div class="merch">
+            <p>Digital Comics</p>
+            <img src="{{Vite::asset('resources/img/buy-comics-digital-comics.png')}}" alt="merch-img">
+        </div>
+        <div class="merch">
+            <p>Shop DC</p>
+            <img src="{{Vite::asset('resources/img/buy-comics-merchandise.png')}}" alt="merch-img">
+        </div>
+        <div class="merch">
+            <p>Comic shop locator</p>
+            <img src="{{Vite::asset('resources/img/buy-comics-shop-locator.png')}}" alt="merch-img">
+        </div>
+        <div class="merch">
+            <p>Subscription</p>
+            <img src="{{Vite::asset('resources/img/buy-comics-subscriptions.png')}}" alt="merch-img">
+        </div>
     </div>
 </div>
 @endsection

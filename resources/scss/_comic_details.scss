@@ -123,7 +123,8 @@
 
 #comic-specialties {
     background-color: #f6f6f6;
-    padding: 1.5rem 0;
+    border: 1px solid rgb(194, 194, 194);
+    padding: 1.5rem 0 5rem 0;
     color: #003f5e;
     #comic-talent-specs {
         display: flex;
@@ -176,4 +177,40 @@
         }
     }
 
+}
+
+#merchandise-container {
+    
+    text-transform: uppercase;
+    color: #9f9faa;
+    background-color: #f6f6f6;
+    font-size: 11px;
+    font-weight: bold;
+
+    .merch-container {
+        display: flex;
+    }
+
+    .merch {
+        flex-basis: 25%;
+        padding: 1rem 1.5rem;
+        border-left: 1px solid #9f9faa;
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            flex-basis: 70%;
+        }
+
+        img {
+            height: 50px;
+            width: auto;
+            filter: brightness(0) saturate(100%) invert(74%) sepia(9%) saturate(252%) hue-rotate(201deg) brightness(85%) contrast(87%);
+
+        }
+
+        &:last-of-type {
+            border-right: 1px solid #9f9faa;
+        }
+    }
 }
