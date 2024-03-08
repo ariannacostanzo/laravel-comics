@@ -34,22 +34,34 @@
         <h3>Talent</h3>
         <div class="specialties-container">
             <p>Art by:</p>
-            
+            <div class="specialties-list">
+                @foreach ($comic['artists'] as $artist)
+                <span>{{$artist}}@if(!$loop->last)<span class="comma">,</span>@endif</span>
+                @endforeach
+            </div>   
         </div>
         <div class="specialties-container">
             <p>Written by:</p>
+            <div class="specialties-list">
+                @foreach ($comic['writers'] as $writer)
+                <span>{{$writer}}@if(!$loop->last)<span class="comma">,</span>@endif</span>
+                @endforeach
+            </div>   
         </div>
         </div> 
         <div class="comic-specs">
             <h3>Specs</h3>
             <div class="specialties-container">
                 <p>Series:</p>
+                <span class="specialties-list type">{{$comic['series']}}</span>
             </div>
             <div class="specialties-container">
                 <p>U.S. Price:</p>
+                <span class="specialties-list normal-color">{{$comic['price']}}</span>
             </div>
             <div class="specialties-container">
                 <p>On Sale Date:</p>
+                <span class="specialties-list normal-color">{{$comic['sale_date']}}</span>
             </div>
         </div>
         
