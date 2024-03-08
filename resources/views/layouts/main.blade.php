@@ -28,7 +28,8 @@
      {{-- main --}}
 
     {{-- bonus --}}
-    @include('includes.bonus')
+    @yield('bonus')
+    
     {{-- bonus --}}
 
     {{-- footer --}}

@@ -28,4 +28,31 @@
         </figure>
     </div>
 </div>
+<div id="comic-specialties">
+    <div class="container" id="comic-talent-specs">
+       <div class="comic-talent">
+        <h3>Talent</h3>
+        <div class="specialties-container">
+            <p>Art by:</p>
+            
+        </div>
+        <div class="specialties-container">
+            <p>Written by:</p>
+        </div>
+        </div> 
+        <div class="comic-specs">
+            <h3>Specs</h3>
+            <div class="specialties-container">
+                <p>Series:</p>
+            </div>
+            <div class="specialties-container">
+                <p>U.S. Price:</p>
+            </div>
+            <div class="specialties-container">
+                <p>On Sale Date:</p>
+            </div>
+        </div>
+        
+    </div>
+</div>
 @endsection

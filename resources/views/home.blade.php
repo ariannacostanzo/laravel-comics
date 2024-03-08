@@ -33,3 +33,7 @@
 </main>
 
 @endsection
+
+@section('bonus')
+@include('includes.bonus')
+@endsection
