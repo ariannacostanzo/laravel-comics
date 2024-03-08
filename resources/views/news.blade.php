@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', 'News')
+
 @section('main-content')
 
 <main>

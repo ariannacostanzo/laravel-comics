@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', 'Collectibles')
+
 @section('main-content')
 
 <main>

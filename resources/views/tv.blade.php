@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', 'Tv')
+
 @section('main-content')
 
 <main>

@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', 'Comics')
+
 @section('main-content')
 
 <main>
@@ -10,10 +12,12 @@
           </span>
 
         <div class="row">
-            @foreach (config('comics_cards') as $card)
+            @foreach ($cards as $index => $card)
                 <div class="card">
                     <figure>
+                      <a href="{{url("/comic/$index")}}">
                         <img src="{{$card['thumb'] }}" :alt="{{$card['series']}}">
+                      </a>
                     </figure>
                     <p>{{$card['series']}}</p>
                 </div>
