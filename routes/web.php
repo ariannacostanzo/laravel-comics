@@ -24,10 +24,6 @@ Route::get('/comic/{index}', function($index) {
     return view('show', compact('comic'));
 })->name('show');
 
-
-
-
-
 Route::get('/characters', function () {
     return view('characters');
 })->name('characters');

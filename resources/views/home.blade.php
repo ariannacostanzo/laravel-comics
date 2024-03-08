@@ -22,9 +22,8 @@
                     <p>{{$card['series']}}</p>
                 </div>
             @endforeach
-            
         </div>
-
+        
         <div class="btn-div">
           <button>LOAD MORE</button>
         </div>
