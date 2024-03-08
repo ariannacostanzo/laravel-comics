@@ -7,7 +7,7 @@
 
     position: relative;
 
-    figure {
+    .comic-figure {
         height: 320px;
         width: 213px;
         position: absolute;
@@ -42,12 +42,34 @@
         
         }
     }
+}
+
+#comic-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 4rem 0;
+
     
-    
+}
 
+.comic-description {
 
+    h2{
+        color: #003f5e;
+        font-size: 1.8rem;
+        text-transform: uppercase;
+    }
+}
 
+.ad-figure {
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #464646;
 
-
-
+    img {
+        margin-top: .5rem;
+        width: 70%;
+    }
 }

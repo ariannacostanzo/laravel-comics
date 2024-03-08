@@ -14,14 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $cards = config('comics_cards');
+    $cards = config('comics');
     return view('home', compact('cards'));
 })->name('home');
 
 Route::get('/comic/{index}', function($index) {
-    $cards = config('comics_cards');
-    $card = $cards[$index];
-    return view('show', compact('card'));
+    $comics = config('comics');
+    $comic = $comics[$index];
+    return view('show', compact('comic'));
 })->name('show');
 
 
