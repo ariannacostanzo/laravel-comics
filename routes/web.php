@@ -20,6 +20,11 @@ Route::get('/', function () {
 
 Route::get('/comic/{index}', function($index) {
     $comics = config('comics');
+
+    if (!is_numeric($index) || $index < 0 || $index > count($comics)) {
+        abort(404);
+    }
+    
     $comic = $comics[$index];
     return view('show', compact('comic'));
 })->name('show');
